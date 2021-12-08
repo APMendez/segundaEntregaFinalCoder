@@ -55,6 +55,11 @@ h2 {
     cursor: pointer;
 }
 
+.medidaCarousel {
+    width: 70%;
+    max-width: 1200px;
+}
+
 .quienesSomos {
     width: 90%;
     min-width: 350px;
