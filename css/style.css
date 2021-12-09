@@ -87,11 +87,13 @@ h1 {
         opacity: 1;
     }
 }
+
 /* ------------------- */
 
 h2 {
     margin: 0 !important;
 }
+
 
 span {
     color: #F79824;
@@ -167,6 +169,18 @@ span {
     height: 80vh;
     padding: 2rem;
     margin: 2rem 0;
+
+    border: #d4d4d4 solid 2px;
+    border-radius: 10px;
+}
+.formButton {
+    width: 30%;
+    align-self: center;
+    margin: 0.2rem;
+    background-color: #001b38;
+    color: #F79824;
+    border: #F79824 solid 2px;
+    border-radius: 5px;
 }
 
 .whatsapp {
@@ -223,4 +237,21 @@ nav a:hover {
         transition: transform 0.5s;
     }
 
+    h2:hover {
+        
+    }
+    .quienesSomos {
+        filter: grayscale(1);
+    }
+    .quienesSomos:hover{
+        filter: grayscale(0);
+    }
+
+    .formButton:hover {
+        background: linear-gradient(15deg, rgba(247, 152, 36, 1) 0%, rgba(177, 193, 192, 1) 100%);
+        color: #001b38;
+        transform: scale(1.1);
+        transition: transform 0.5s;
+    }
 }
+
