@@ -209,11 +209,12 @@ nav a {
     color: #001b38 !important;
 }
 
-nav a:hover {
-    color: #F79824 !important;
-}
+
 
 @media screen and (min-width: 1200px) {
+    nav a:hover {
+        color: #F79824 !important;
+    }
     .linkPlanta a:hover {
         color: #F79824;
     }
@@ -237,9 +238,6 @@ nav a:hover {
         transition: transform 0.5s;
     }
 
-    h2:hover {
-        
-    }
     .quienesSomos {
         filter: grayscale(1);
     }
@@ -253,5 +251,25 @@ nav a:hover {
         transform: scale(1.1);
         transition: transform 0.5s;
     }
+    h2:hover {
+        animation-name: hoverh2;
+        animation-duration: 0.5s;
+    }
+    @keyframes hoverh2 {
+        0% {
+            transform: translateY(10px);
+        }
+        25% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(7px);
+        }
+        75% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(3px);
+        }
+    }
 }
-
